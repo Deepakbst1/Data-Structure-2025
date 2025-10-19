@@ -2,6 +2,7 @@ package Kadanes_Alogorithm;
 
 import java.util.Scanner;
 
+//kadanes
 public class maxSubArraySum {
     public static int maxSubArraySums(int[] nums) {
         int max = nums[0];
@@ -24,5 +25,6 @@ public class maxSubArraySum {
         }
         int maxSum = maxSubArraySums(nums);
         System.out.println(maxSum);
+        sc.close();
     }
 }
